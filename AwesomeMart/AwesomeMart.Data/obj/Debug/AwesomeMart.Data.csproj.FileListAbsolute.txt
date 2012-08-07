@@ -1,0 +1,5 @@
+D:\Projects\Sandbox\AwesomeMart\AwesomeMart.Data\bin\Debug\AwesomeMart.Data.dll
+D:\Projects\Sandbox\AwesomeMart\AwesomeMart.Data\bin\Debug\AwesomeMart.Data.pdb
+D:\Projects\Sandbox\AwesomeMart\AwesomeMart.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Sandbox\AwesomeMart\AwesomeMart.Data\obj\Debug\AwesomeMart.Data.dll
+D:\Projects\Sandbox\AwesomeMart\AwesomeMart.Data\obj\Debug\AwesomeMart.Data.pdb
