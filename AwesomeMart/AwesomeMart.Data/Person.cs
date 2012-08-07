@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AwesomeMart.Data
 {
-    abstract protected class Person
+    abstract public class Person
     {
         public virtual string Name { get; set; }
         public virtual int ID { get; set; }
