@@ -6,3 +6,11 @@ C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin
 C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Debug\AwesomeMart.Data.dll
 C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Debug\AwesomeMart.Data.pdb
+C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\AwesomeMart.Data.dll.config
+C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\AwesomeMart.Data.dll
+C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\AwesomeMart.Data.pdb
+C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\EntityFramework.dll
+C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\EntityFramework.xml
+C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Debug\AwesomeMart.Data.dll
+C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Debug\AwesomeMart.Data.pdb
