@@ -1,0 +1,5 @@
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Enumerations\bin\Release\AwesomeMart.Enumerations.dll
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Enumerations\bin\Release\AwesomeMart.Enumerations.pdb
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Enumerations\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Enumerations\obj\Release\AwesomeMart.Enumerations.dll
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Enumerations\obj\Release\AwesomeMart.Enumerations.pdb

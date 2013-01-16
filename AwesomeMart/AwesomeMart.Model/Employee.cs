@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AwesomeMart.Data;
+using AwesomeMart.Enumerations;
 
 namespace AwesomeMart.Model
 {

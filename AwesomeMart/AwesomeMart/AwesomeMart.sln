@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeMart.Model", "..\AwesomeMart.Model\AwesomeMart.Model.csproj", "{2C19BC84-5737-4670-A3B6-6492B1567B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeMart.Enumerations", "..\AwesomeMart.Enumerations\AwesomeMart.Enumerations.csproj", "{FBA4EE1E-14E6-47C7-8A35-26858D323948}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{2C19BC84-5737-4670-A3B6-6492B1567B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C19BC84-5737-4670-A3B6-6492B1567B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C19BC84-5737-4670-A3B6-6492B1567B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA4EE1E-14E6-47C7-8A35-26858D323948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA4EE1E-14E6-47C7-8A35-26858D323948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA4EE1E-14E6-47C7-8A35-26858D323948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA4EE1E-14E6-47C7-8A35-26858D323948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,10 @@
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Release\AwesomeMart.Data.dll.config
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Release\AwesomeMart.Data.dll
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Release\AwesomeMart.Data.pdb
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Release\AwesomeMart.Enumerations.dll
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Release\EntityFramework.dll
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Release\AwesomeMart.Enumerations.pdb
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Release\EntityFramework.xml
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Release\AwesomeMart.Data.dll
+C:\Users\Doom\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Release\AwesomeMart.Data.pdb
