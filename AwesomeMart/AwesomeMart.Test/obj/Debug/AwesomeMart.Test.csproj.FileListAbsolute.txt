@@ -1,0 +1,12 @@
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Test.dll
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Test.pdb
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Data.dll
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\EntityFramework.dll
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Enumerations.dll
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Data.pdb
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\EntityFramework.xml
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Enumerations.pdb
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\obj\Debug\AwesomeMart.Test.dll
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\obj\Debug\AwesomeMart.Test.pdb
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Test.dll.config

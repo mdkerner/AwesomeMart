@@ -1,11 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeMart.Model", "..\AwesomeMart.Model\AwesomeMart.Model.csproj", "{2C19BC84-5737-4670-A3B6-6492B1567B9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeMart.Enumerations", "..\AwesomeMart.Enumerations\AwesomeMart.Enumerations.csproj", "{FBA4EE1E-14E6-47C7-8A35-26858D323948}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeMart.Test", "..\AwesomeMart.Test\AwesomeMart.Test.csproj", "{02EE5D13-717D-4EC9-AB72-45172C3CC0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3986E2F-2138-4373-8C67-EAD631AF2FED}"
+	ProjectSection(SolutionItems) = preProject
+		AwesomeMart.vsmdi = AwesomeMart.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AwesomeMart.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -19,6 +31,10 @@ Global
 		{FBA4EE1E-14E6-47C7-8A35-26858D323948}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBA4EE1E-14E6-47C7-8A35-26858D323948}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBA4EE1E-14E6-47C7-8A35-26858D323948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EE5D13-717D-4EC9-AB72-45172C3CC0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EE5D13-717D-4EC9-AB72-45172C3CC0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EE5D13-717D-4EC9-AB72-45172C3CC0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EE5D13-717D-4EC9-AB72-45172C3CC0C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

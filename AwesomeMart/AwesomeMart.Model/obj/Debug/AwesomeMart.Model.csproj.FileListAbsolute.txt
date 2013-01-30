@@ -14,3 +14,5 @@ C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\EntityFramewo
 C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Debug\AwesomeMart.Data.dll
 C:\Users\Lynne\AwesomeMart\AwesomeMart\AwesomeMart.Model\obj\Debug\AwesomeMart.Data.pdb
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\AwesomeMart.Enumerations.dll
+C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\AwesomeMart.Enumerations.pdb
