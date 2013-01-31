@@ -9,11 +9,7 @@ namespace AwesomeMart.Model
     {
         public virtual int ID { get; set; }
         public virtual string Name { get; set; }
-        public virtual string Race { get; set; }
         public virtual string Address { get; set; }
         public virtual string Phone { get; set; }
-        public virtual DateTime CreateDate { get; set; }
-        public virtual int Age { get; set; }
-        
     }
 }

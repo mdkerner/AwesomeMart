@@ -61,11 +61,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AwesomeMartDbContext.cs" />
+    <Compile Include="AwesomeMartDb.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="Position.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sale.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

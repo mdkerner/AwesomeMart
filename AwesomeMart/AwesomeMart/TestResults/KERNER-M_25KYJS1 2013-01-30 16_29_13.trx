@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="91cfb7e2-9c47-4b85-b83d-a7883c255d59" name="KERNER-M@25KYJS1 2013-01-30 16:29:13" runUser="SA\KERNER-M" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0dbed112-f3d2-45f0-833e-0741c6af46f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="KERNER-M_25KYJS1 2013-01-30 16_29_13">
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Enumerations\bin\Debug\AwesomeMart.Enumerations.dll" />
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\AwesomeMart.Data.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-30T16:29:13.8923763-08:00" queuing="2013-01-30T16:29:13.9263763-08:00" start="2013-01-30T16:29:13.9313763-08:00" finish="2013-01-30T16:29:14.6133763-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="23" executed="23" error="0" failed="23" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="can_get_validation_message_from_annotation" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="1de479d9-767f-0f2e-8696-ae1995c42fa6">
+      <Execution id="a150fed1-230b-436d-9bd0-4984bc0191e0" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_get_validation_message_from_annotation" />
+    </UnitTest>
+    <UnitTest name="lazy_loading_works_between_sales_and_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="c2e768e2-9389-62d7-8919-0d56c84b6986">
+      <Execution id="ba8bdb2a-7cc2-4142-9107-2cf2b720985c" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="lazy_loading_works_between_sales_and_employee" />
+    </UnitTest>
+    <UnitTest name="can_get_invalid_entity" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="31afd779-579d-d7cd-63bf-667b03aa9167">
+      <Execution id="de1d3179-7d21-4293-be3c-5d9d595627f4" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_get_invalid_entity" />
+    </UnitTest>
+    <UnitTest name="can_seed_database_with_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="9010d12c-3f2d-3c6d-95a8-9b36449c2b43">
+      <Execution id="a62f0cc2-0444-4059-bb3d-d5bc36ab47a8" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_seed_database_with_employee" />
+    </UnitTest>
+    <UnitTest name="default_value_for_pay_type_is_hourly" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="1faebceb-8451-a275-e86e-3b894760aa1e">
+      <Execution id="4ebed9b2-1510-4904-8868-65c6d852ce82" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_pay_type_is_hourly" />
+    </UnitTest>
+    <UnitTest name="linq_shorthand_is_equivalent_to_regular_syntax" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="7948a2ab-75da-b66f-01dc-cc0c50dd9b98">
+      <Execution id="98b13296-a2f2-41ab-b62e-4c2272637dd8" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="linq_shorthand_is_equivalent_to_regular_syntax" />
+    </UnitTest>
+    <UnitTest name="pay_rate_cant_be_negative" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="492926e9-0840-f02c-f7b4-b90f733c4f50">
+      <Execution id="4f772dd9-7f9a-4c7e-b1e1-2f8ebb9010cd" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_cant_be_negative" />
+    </UnitTest>
+    <UnitTest name="can_have_more_than_one_product_in_sale" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="25e07621-69c6-eba1-3e42-eb19005502df">
+      <Execution id="58b871c2-6bf2-43bc-83ca-b89bd3c26e49" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_have_more_than_one_product_in_sale" />
+    </UnitTest>
+    <UnitTest name="relationships_work_between_sales_and_employees" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="8edd6437-f89d-5258-0bc8-730c57fc8d24">
+      <Execution id="398e8c95-05e2-496f-a383-28c4007d1821" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="relationships_work_between_sales_and_employees" />
+    </UnitTest>
+    <UnitTest name="can_enter_sale" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="23156d09-9880-eee1-5655-94cfcbb1914a">
+      <Execution id="8ae7f043-b1b6-4fa3-9e73-226fe2281f5b" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_enter_sale" />
+    </UnitTest>
+    <UnitTest name="default_value_for_position_is_null" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="d7c04fbe-7743-bb05-94f9-69ebbf46de8f">
+      <Execution id="aad94fb1-41ac-4cb1-b3eb-022f1036735a" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_position_is_null" />
+    </UnitTest>
+    <UnitTest name="can_add_new_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="937886fc-50f1-96f2-137f-12f0beea6931">
+      <Execution id="2697fdc5-7330-4d73-9cb0-d3eb549d74e6" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_add_new_employee" />
+    </UnitTest>
+    <UnitTest name="can_retrieve_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="637ca211-9ce2-7473-7d49-6124301dbf38">
+      <Execution id="00f2c76e-2992-4b9a-8017-25b5636f5dc5" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_retrieve_employee" />
+    </UnitTest>
+    <UnitTest name="pay_type_is_able_to_be_changed" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="64b1c73e-cbd6-9f2f-f8b0-fe4804f3ee4f">
+      <Execution id="09b864f4-a2b9-4c71-bdeb-c44d4fde99c2" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_type_is_able_to_be_changed" />
+    </UnitTest>
+    <UnitTest name="can_delete_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="19d8dede-1a91-62cf-015c-c3c0f4e96b93">
+      <Execution id="a4fa539f-2160-423a-85a3-751d3a911eeb" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_delete_employee" />
+    </UnitTest>
+    <UnitTest name="can_check_for_validation_before_saving" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="e0371036-8b9a-f916-a7da-ca40b074839f">
+      <Execution id="e2bcb338-1fcb-4c73-967f-32e7cc7c3ecd" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_check_for_validation_before_saving" />
+    </UnitTest>
+    <UnitTest name="can_edit_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="7e89b305-8675-3aed-4c84-f356b475469a">
+      <Execution id="339c769b-f554-4d63-8a64-3145c4efb4e7" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_edit_employee" />
+    </UnitTest>
+    <UnitTest name="default_value_for_pay_rate_is_zero" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="190ade80-aa7a-0241-1baf-701b223668fe">
+      <Execution id="2793e838-942d-4d83-8ec3-8867e1539057" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_pay_rate_is_zero" />
+    </UnitTest>
+    <UnitTest name="pay_rate_cant_be_more_than_5000000000" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="ff8df26d-cfd2-ee2a-0027-fc09a963f201">
+      <Execution id="9334ea42-d703-4042-a268-2494602aaa9a" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_cant_be_more_than_5000000000" />
+    </UnitTest>
+    <UnitTest name="id_field_is_updated_locally_when_the_context_is_saved" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="3c10e73d-4da6-0220-9d85-4f94384ad704">
+      <Execution id="7bbf827a-fa57-48dd-9784-bdbcf4210caf" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="id_field_is_updated_locally_when_the_context_is_saved" />
+    </UnitTest>
+    <UnitTest name="pay_rate_can_be_0" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="50016594-dfeb-0321-044f-2714ce910c7a">
+      <Execution id="14797d4e-5676-4a69-b515-d0d760e96469" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_can_be_0" />
+    </UnitTest>
+    <UnitTest name="pay_rate_can_be_5000000000" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="493c682a-ac29-c76e-bbbb-178d91201411">
+      <Execution id="0bed8cfc-c18e-4a02-80fd-d3adca782def" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_can_be_5000000000" />
+    </UnitTest>
+    <UnitTest name="default_value_for_start_date_is_null" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="7ba9dac2-7723-9839-8900-7d8d62e34f38">
+      <Execution id="bb397a0a-f444-464a-9b4a-c2564917503e" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_start_date_is_null" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="190ade80-aa7a-0241-1baf-701b223668fe" executionId="2793e838-942d-4d83-8ec3-8867e1539057" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19d8dede-1a91-62cf-015c-c3c0f4e96b93" executionId="a4fa539f-2160-423a-85a3-751d3a911eeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1de479d9-767f-0f2e-8696-ae1995c42fa6" executionId="a150fed1-230b-436d-9bd0-4984bc0191e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1faebceb-8451-a275-e86e-3b894760aa1e" executionId="4ebed9b2-1510-4904-8868-65c6d852ce82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23156d09-9880-eee1-5655-94cfcbb1914a" executionId="8ae7f043-b1b6-4fa3-9e73-226fe2281f5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25e07621-69c6-eba1-3e42-eb19005502df" executionId="58b871c2-6bf2-43bc-83ca-b89bd3c26e49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31afd779-579d-d7cd-63bf-667b03aa9167" executionId="de1d3179-7d21-4293-be3c-5d9d595627f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c10e73d-4da6-0220-9d85-4f94384ad704" executionId="7bbf827a-fa57-48dd-9784-bdbcf4210caf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="492926e9-0840-f02c-f7b4-b90f733c4f50" executionId="4f772dd9-7f9a-4c7e-b1e1-2f8ebb9010cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="493c682a-ac29-c76e-bbbb-178d91201411" executionId="0bed8cfc-c18e-4a02-80fd-d3adca782def" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50016594-dfeb-0321-044f-2714ce910c7a" executionId="14797d4e-5676-4a69-b515-d0d760e96469" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="637ca211-9ce2-7473-7d49-6124301dbf38" executionId="00f2c76e-2992-4b9a-8017-25b5636f5dc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64b1c73e-cbd6-9f2f-f8b0-fe4804f3ee4f" executionId="09b864f4-a2b9-4c71-bdeb-c44d4fde99c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7948a2ab-75da-b66f-01dc-cc0c50dd9b98" executionId="98b13296-a2f2-41ab-b62e-4c2272637dd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ba9dac2-7723-9839-8900-7d8d62e34f38" executionId="bb397a0a-f444-464a-9b4a-c2564917503e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e89b305-8675-3aed-4c84-f356b475469a" executionId="339c769b-f554-4d63-8a64-3145c4efb4e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8edd6437-f89d-5258-0bc8-730c57fc8d24" executionId="398e8c95-05e2-496f-a383-28c4007d1821" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9010d12c-3f2d-3c6d-95a8-9b36449c2b43" executionId="a62f0cc2-0444-4059-bb3d-d5bc36ab47a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="937886fc-50f1-96f2-137f-12f0beea6931" executionId="2697fdc5-7330-4d73-9cb0-d3eb549d74e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2e768e2-9389-62d7-8919-0d56c84b6986" executionId="ba8bdb2a-7cc2-4142-9107-2cf2b720985c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7c04fbe-7743-bb05-94f9-69ebbf46de8f" executionId="aad94fb1-41ac-4cb1-b3eb-022f1036735a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0371036-8b9a-f916-a7da-ca40b074839f" executionId="e2bcb338-1fcb-4c73-967f-32e7cc7c3ecd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff8df26d-cfd2-ee2a-0027-fc09a963f201" executionId="9334ea42-d703-4042-a268-2494602aaa9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2793e838-942d-4d83-8ec3-8867e1539057" testId="190ade80-aa7a-0241-1baf-701b223668fe" testName="default_value_for_pay_rate_is_zero" computerName="25KYJS1" duration="00:00:00.2407172" startTime="2013-01-30T16:29:13.9343763-08:00" endTime="2013-01-30T16:29:14.2983763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2793e838-942d-4d83-8ec3-8867e1539057">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.default_value_for_pay_rate_is_zero threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.default_value_for_pay_rate_is_zero() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 110
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a4fa539f-2160-423a-85a3-751d3a911eeb" testId="19d8dede-1a91-62cf-015c-c3c0f4e96b93" testName="can_delete_employee" computerName="25KYJS1" duration="00:00:00.0107816" startTime="2013-01-30T16:29:14.2993763-08:00" endTime="2013-01-30T16:29:14.3123763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4fa539f-2160-423a-85a3-751d3a911eeb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_delete_employee threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Employee_Test.can_delete_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a150fed1-230b-436d-9bd0-4984bc0191e0" testId="1de479d9-767f-0f2e-8696-ae1995c42fa6" testName="can_get_validation_message_from_annotation" computerName="25KYJS1" duration="00:00:00.0101351" startTime="2013-01-30T16:29:14.3143763-08:00" endTime="2013-01-30T16:29:14.3263763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a150fed1-230b-436d-9bd0-4984bc0191e0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_get_validation_message_from_annotation threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_get_validation_message_from_annotation() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 289
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4ebed9b2-1510-4904-8868-65c6d852ce82" testId="1faebceb-8451-a275-e86e-3b894760aa1e" testName="default_value_for_pay_type_is_hourly" computerName="25KYJS1" duration="00:00:00.0108414" startTime="2013-01-30T16:29:14.3273763-08:00" endTime="2013-01-30T16:29:14.3403763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ebed9b2-1510-4904-8868-65c6d852ce82">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.default_value_for_pay_type_is_hourly threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.default_value_for_pay_type_is_hourly() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 133
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8ae7f043-b1b6-4fa3-9e73-226fe2281f5b" testId="23156d09-9880-eee1-5655-94cfcbb1914a" testName="can_enter_sale" computerName="25KYJS1" duration="00:00:00.0122067" startTime="2013-01-30T16:29:14.3413763-08:00" endTime="2013-01-30T16:29:14.3553763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ae7f043-b1b6-4fa3-9e73-226fe2281f5b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Sale_Test.can_enter_sale threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Sale_Test.can_enter_sale() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Sale_Test.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="58b871c2-6bf2-43bc-83ca-b89bd3c26e49" testId="25e07621-69c6-eba1-3e42-eb19005502df" testName="can_have_more_than_one_product_in_sale" computerName="25KYJS1" duration="00:00:00.0109259" startTime="2013-01-30T16:29:14.3563763-08:00" endTime="2013-01-30T16:29:14.3693763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58b871c2-6bf2-43bc-83ca-b89bd3c26e49">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Sale_Test.can_have_more_than_one_product_in_sale threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Sale_Test.can_have_more_than_one_product_in_sale() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Sale_Test.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="de1d3179-7d21-4293-be3c-5d9d595627f4" testId="31afd779-579d-d7cd-63bf-667b03aa9167" testName="can_get_invalid_entity" computerName="25KYJS1" duration="00:00:00.0096602" startTime="2013-01-30T16:29:14.3703763-08:00" endTime="2013-01-30T16:29:14.3823763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de1d3179-7d21-4293-be3c-5d9d595627f4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_get_invalid_entity threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_get_invalid_entity() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 331
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7bbf827a-fa57-48dd-9784-bdbcf4210caf" testId="3c10e73d-4da6-0220-9d85-4f94384ad704" testName="id_field_is_updated_locally_when_the_context_is_saved" computerName="25KYJS1" duration="00:00:00.0097855" startTime="2013-01-30T16:29:14.3833763-08:00" endTime="2013-01-30T16:29:14.3953763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bbf827a-fa57-48dd-9784-bdbcf4210caf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.id_field_is_updated_locally_when_the_context_is_saved threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.id_field_is_updated_locally_when_the_context_is_saved() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 181
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f772dd9-7f9a-4c7e-b1e1-2f8ebb9010cd" testId="492926e9-0840-f02c-f7b4-b90f733c4f50" testName="pay_rate_cant_be_negative" computerName="25KYJS1" duration="00:00:00.0097381" startTime="2013-01-30T16:29:14.3963763-08:00" endTime="2013-01-30T16:29:14.4083763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f772dd9-7f9a-4c7e-b1e1-2f8ebb9010cd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.pay_rate_cant_be_negative threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.pay_rate_cant_be_negative() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 199
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0bed8cfc-c18e-4a02-80fd-d3adca782def" testId="493c682a-ac29-c76e-bbbb-178d91201411" testName="pay_rate_can_be_5000000000" computerName="25KYJS1" duration="00:00:00.0099056" startTime="2013-01-30T16:29:14.4093763-08:00" endTime="2013-01-30T16:29:14.4213763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bed8cfc-c18e-4a02-80fd-d3adca782def">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.pay_rate_can_be_5000000000 threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.pay_rate_can_be_5000000000() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 267
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14797d4e-5676-4a69-b515-d0d760e96469" testId="50016594-dfeb-0321-044f-2714ce910c7a" testName="pay_rate_can_be_0" computerName="25KYJS1" duration="00:00:00.0098353" startTime="2013-01-30T16:29:14.4223763-08:00" endTime="2013-01-30T16:29:14.4343763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14797d4e-5676-4a69-b515-d0d760e96469">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.pay_rate_can_be_0 threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.pay_rate_can_be_0() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 222
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="00f2c76e-2992-4b9a-8017-25b5636f5dc5" testId="637ca211-9ce2-7473-7d49-6124301dbf38" testName="can_retrieve_employee" computerName="25KYJS1" duration="00:00:00.0098392" startTime="2013-01-30T16:29:14.4363763-08:00" endTime="2013-01-30T16:29:14.4473763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00f2c76e-2992-4b9a-8017-25b5636f5dc5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_retrieve_employee threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_retrieve_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 34
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="09b864f4-a2b9-4c71-bdeb-c44d4fde99c2" testId="64b1c73e-cbd6-9f2f-f8b0-fe4804f3ee4f" testName="pay_type_is_able_to_be_changed" computerName="25KYJS1" duration="00:00:00.0101411" startTime="2013-01-30T16:29:14.4483763-08:00" endTime="2013-01-30T16:29:14.4603763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09b864f4-a2b9-4c71-bdeb-c44d4fde99c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.pay_type_is_able_to_be_changed threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.pay_type_is_able_to_be_changed() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 144
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="98b13296-a2f2-41ab-b62e-4c2272637dd8" testId="7948a2ab-75da-b66f-01dc-cc0c50dd9b98" testName="linq_shorthand_is_equivalent_to_regular_syntax" computerName="25KYJS1" duration="00:00:00.0102147" startTime="2013-01-30T16:29:14.4623763-08:00" endTime="2013-01-30T16:29:14.4743763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98b13296-a2f2-41ab-b62e-4c2272637dd8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.linq_shorthand_is_equivalent_to_regular_syntax threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Employee_Test.linq_shorthand_is_equivalent_to_regular_syntax() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 167
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb397a0a-f444-464a-9b4a-c2564917503e" testId="7ba9dac2-7723-9839-8900-7d8d62e34f38" testName="default_value_for_start_date_is_null" computerName="25KYJS1" duration="00:00:00.0099757" startTime="2013-01-30T16:29:14.4753763-08:00" endTime="2013-01-30T16:29:14.4873763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb397a0a-f444-464a-9b4a-c2564917503e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.default_value_for_start_date_is_null threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.default_value_for_start_date_is_null() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="339c769b-f554-4d63-8a64-3145c4efb4e7" testId="7e89b305-8675-3aed-4c84-f356b475469a" testName="can_edit_employee" computerName="25KYJS1" duration="00:00:00.0103050" startTime="2013-01-30T16:29:14.4883763-08:00" endTime="2013-01-30T16:29:14.5003763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="339c769b-f554-4d63-8a64-3145c4efb4e7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_edit_employee threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_edit_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 48
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="398e8c95-05e2-496f-a383-28c4007d1821" testId="8edd6437-f89d-5258-0bc8-730c57fc8d24" testName="relationships_work_between_sales_and_employees" computerName="25KYJS1" duration="00:00:00.0105640" startTime="2013-01-30T16:29:14.5023763-08:00" endTime="2013-01-30T16:29:14.5143763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="398e8c95-05e2-496f-a383-28c4007d1821">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Sale_Test.relationships_work_between_sales_and_employees threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Sale_Test.relationships_work_between_sales_and_employees() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Sale_Test.cs:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a62f0cc2-0444-4059-bb3d-d5bc36ab47a8" testId="9010d12c-3f2d-3c6d-95a8-9b36449c2b43" testName="can_seed_database_with_employee" computerName="25KYJS1" duration="00:00:00.0101179" startTime="2013-01-30T16:29:14.5163763-08:00" endTime="2013-01-30T16:29:14.5283763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a62f0cc2-0444-4059-bb3d-d5bc36ab47a8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_seed_database_with_employee threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Employee_Test.can_seed_database_with_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 69
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2697fdc5-7330-4d73-9cb0-d3eb549d74e6" testId="937886fc-50f1-96f2-137f-12f0beea6931" testName="can_add_new_employee" computerName="25KYJS1" duration="00:00:00.0125188" startTime="2013-01-30T16:29:14.5293763-08:00" endTime="2013-01-30T16:29:14.5433763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2697fdc5-7330-4d73-9cb0-d3eb549d74e6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_add_new_employee threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_add_new_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba8bdb2a-7cc2-4142-9107-2cf2b720985c" testId="c2e768e2-9389-62d7-8919-0d56c84b6986" testName="lazy_loading_works_between_sales_and_employee" computerName="25KYJS1" duration="00:00:00.0148757" startTime="2013-01-30T16:29:14.5453763-08:00" endTime="2013-01-30T16:29:14.5613763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba8bdb2a-7cc2-4142-9107-2cf2b720985c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Sale_Test.lazy_loading_works_between_sales_and_employee threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Sale_Test.lazy_loading_works_between_sales_and_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Sale_Test.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aad94fb1-41ac-4cb1-b3eb-022f1036735a" testId="d7c04fbe-7743-bb05-94f9-69ebbf46de8f" testName="default_value_for_position_is_null" computerName="25KYJS1" duration="00:00:00.0099337" startTime="2013-01-30T16:29:14.5633763-08:00" endTime="2013-01-30T16:29:14.5743763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aad94fb1-41ac-4cb1-b3eb-022f1036735a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.default_value_for_position_is_null threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.default_value_for_position_is_null() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 122
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2bcb338-1fcb-4c73-967f-32e7cc7c3ecd" testId="e0371036-8b9a-f916-a7da-ca40b074839f" testName="can_check_for_validation_before_saving" computerName="25KYJS1" duration="00:00:00.0098791" startTime="2013-01-30T16:29:14.5763763-08:00" endTime="2013-01-30T16:29:14.5883763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2bcb338-1fcb-4c73-967f-32e7cc7c3ecd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_check_for_validation_before_saving threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_check_for_validation_before_saving() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 313
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9334ea42-d703-4042-a268-2494602aaa9a" testId="ff8df26d-cfd2-ee2a-0027-fc09a963f201" testName="pay_rate_cant_be_more_than_5000000000" computerName="25KYJS1" duration="00:00:00.0104599" startTime="2013-01-30T16:29:14.5893763-08:00" endTime="2013-01-30T16:29:14.6013763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9334ea42-d703-4042-a268-2494602aaa9a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.pay_rate_cant_be_more_than_5000000000 threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+\tSystem.Data.Entity.Edm.EdmEntityType: : EntityType 'Product' has no key defined. Define the key for this EntityType.
+\tSystem.Data.Entity.Edm.EdmEntitySet: EntityType: EntitySet 'Products' is based on type 'Product' that has no keys defined.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.pay_rate_cant_be_more_than_5000000000() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 244
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

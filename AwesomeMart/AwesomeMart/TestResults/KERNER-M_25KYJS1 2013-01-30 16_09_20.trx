@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="50909629-af97-4e9a-9d40-32df2ca516f5" name="KERNER-M@25KYJS1 2013-01-30 16:09:20" runUser="SA\KERNER-M" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0dbed112-f3d2-45f0-833e-0741c6af46f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="KERNER-M_25KYJS1 2013-01-30 16_09_20">
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Enumerations\bin\Debug\AwesomeMart.Enumerations.dll" />
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\AwesomeMart.Data.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-30T16:09:20.4573763-08:00" queuing="2013-01-30T16:09:20.5793763-08:00" start="2013-01-30T16:09:20.5863763-08:00" finish="2013-01-30T16:09:21.6723763-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="22" executed="22" error="0" failed="22" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="can_get_validation_message_from_annotation" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="1de479d9-767f-0f2e-8696-ae1995c42fa6">
+      <Execution id="ad2c5d63-e1b8-4aa7-802b-86dd093646ed" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_get_validation_message_from_annotation" />
+    </UnitTest>
+    <UnitTest name="lazy_loading_works_between_sales_and_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="c2e768e2-9389-62d7-8919-0d56c84b6986">
+      <Execution id="521f327c-b637-40cc-9905-42e4af726292" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="lazy_loading_works_between_sales_and_employee" />
+    </UnitTest>
+    <UnitTest name="can_get_invalid_entity" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="31afd779-579d-d7cd-63bf-667b03aa9167">
+      <Execution id="1cfa9f71-2cdc-4627-998c-f3055291ca3b" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_get_invalid_entity" />
+    </UnitTest>
+    <UnitTest name="can_seed_database_with_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="9010d12c-3f2d-3c6d-95a8-9b36449c2b43">
+      <Execution id="fddb53b6-0dae-41ae-807a-ebeb0d5c56cb" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_seed_database_with_employee" />
+    </UnitTest>
+    <UnitTest name="default_value_for_pay_type_is_hourly" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="1faebceb-8451-a275-e86e-3b894760aa1e">
+      <Execution id="36eabdde-6ad6-4e49-9d3a-44324398c095" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_pay_type_is_hourly" />
+    </UnitTest>
+    <UnitTest name="linq_shorthand_is_equivalent_to_regular_syntax" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="7948a2ab-75da-b66f-01dc-cc0c50dd9b98">
+      <Execution id="2beffcf7-5212-4ed1-91de-88fee57ff716" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="linq_shorthand_is_equivalent_to_regular_syntax" />
+    </UnitTest>
+    <UnitTest name="pay_rate_cant_be_negative" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="492926e9-0840-f02c-f7b4-b90f733c4f50">
+      <Execution id="2a96424c-fc49-4094-b89f-61915fd745f9" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_cant_be_negative" />
+    </UnitTest>
+    <UnitTest name="can_have_more_than_one_product_in_sale" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="25e07621-69c6-eba1-3e42-eb19005502df">
+      <Execution id="d98509e3-4b4a-4585-b6a7-6b1996b718b9" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_have_more_than_one_product_in_sale" />
+    </UnitTest>
+    <UnitTest name="relationships_work_between_sales_and_employees" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="8edd6437-f89d-5258-0bc8-730c57fc8d24">
+      <Execution id="bfd57664-0f5f-415b-bfa7-050d060b4839" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="relationships_work_between_sales_and_employees" />
+    </UnitTest>
+    <UnitTest name="can_enter_sale" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="23156d09-9880-eee1-5655-94cfcbb1914a">
+      <Execution id="be61342b-b3f3-4ccf-a5c7-c91ec5c17f88" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_enter_sale" />
+    </UnitTest>
+    <UnitTest name="default_value_for_position_is_null" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="d7c04fbe-7743-bb05-94f9-69ebbf46de8f">
+      <Execution id="4a9344e4-2db1-4267-a4a4-aa6aab6b56aa" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_position_is_null" />
+    </UnitTest>
+    <UnitTest name="can_add_new_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="937886fc-50f1-96f2-137f-12f0beea6931">
+      <Execution id="c8503642-f584-488b-81fb-029a4f55ee1f" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_add_new_employee" />
+    </UnitTest>
+    <UnitTest name="can_retrieve_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="637ca211-9ce2-7473-7d49-6124301dbf38">
+      <Execution id="1a3f2328-567c-4f76-86d5-c9ab0ea8b9b9" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_retrieve_employee" />
+    </UnitTest>
+    <UnitTest name="default_value_for_start_date_is_null" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="7ba9dac2-7723-9839-8900-7d8d62e34f38">
+      <Execution id="dea6ce41-4e5c-4da1-b536-7ff85a400f97" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_start_date_is_null" />
+    </UnitTest>
+    <UnitTest name="can_delete_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="19d8dede-1a91-62cf-015c-c3c0f4e96b93">
+      <Execution id="4d64477b-6e38-44c4-803b-a34885b281a4" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_delete_employee" />
+    </UnitTest>
+    <UnitTest name="can_check_for_validation_before_saving" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="e0371036-8b9a-f916-a7da-ca40b074839f">
+      <Execution id="4658939a-92a6-41de-b19b-7eac4770a263" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_check_for_validation_before_saving" />
+    </UnitTest>
+    <UnitTest name="can_edit_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="7e89b305-8675-3aed-4c84-f356b475469a">
+      <Execution id="86b4e23b-9230-4bca-b422-4b51aa149dc7" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_edit_employee" />
+    </UnitTest>
+    <UnitTest name="default_value_for_pay_rate_is_zero" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="190ade80-aa7a-0241-1baf-701b223668fe">
+      <Execution id="52168e50-b767-4abf-b974-4ce28c74168c" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_pay_rate_is_zero" />
+    </UnitTest>
+    <UnitTest name="pay_rate_cant_be_more_than_5000000000" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="ff8df26d-cfd2-ee2a-0027-fc09a963f201">
+      <Execution id="88d204a0-ca88-4d74-b158-6aa9d2e7e928" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_cant_be_more_than_5000000000" />
+    </UnitTest>
+    <UnitTest name="id_field_is_updated_locally_when_the_context_is_saved" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="3c10e73d-4da6-0220-9d85-4f94384ad704">
+      <Execution id="90ecde56-c540-4784-b521-19a01ca66db0" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="id_field_is_updated_locally_when_the_context_is_saved" />
+    </UnitTest>
+    <UnitTest name="pay_rate_can_be_0" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="50016594-dfeb-0321-044f-2714ce910c7a">
+      <Execution id="f1ae2a86-3dea-4650-9265-247f5f3bd1ce" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_can_be_0" />
+    </UnitTest>
+    <UnitTest name="pay_rate_can_be_5000000000" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="493c682a-ac29-c76e-bbbb-178d91201411">
+      <Execution id="befcfa2a-f4da-4e94-8c46-63bbf7bf36fd" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_can_be_5000000000" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="190ade80-aa7a-0241-1baf-701b223668fe" executionId="52168e50-b767-4abf-b974-4ce28c74168c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19d8dede-1a91-62cf-015c-c3c0f4e96b93" executionId="4d64477b-6e38-44c4-803b-a34885b281a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1de479d9-767f-0f2e-8696-ae1995c42fa6" executionId="ad2c5d63-e1b8-4aa7-802b-86dd093646ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1faebceb-8451-a275-e86e-3b894760aa1e" executionId="36eabdde-6ad6-4e49-9d3a-44324398c095" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23156d09-9880-eee1-5655-94cfcbb1914a" executionId="be61342b-b3f3-4ccf-a5c7-c91ec5c17f88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25e07621-69c6-eba1-3e42-eb19005502df" executionId="d98509e3-4b4a-4585-b6a7-6b1996b718b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31afd779-579d-d7cd-63bf-667b03aa9167" executionId="1cfa9f71-2cdc-4627-998c-f3055291ca3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c10e73d-4da6-0220-9d85-4f94384ad704" executionId="90ecde56-c540-4784-b521-19a01ca66db0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="492926e9-0840-f02c-f7b4-b90f733c4f50" executionId="2a96424c-fc49-4094-b89f-61915fd745f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="493c682a-ac29-c76e-bbbb-178d91201411" executionId="befcfa2a-f4da-4e94-8c46-63bbf7bf36fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50016594-dfeb-0321-044f-2714ce910c7a" executionId="f1ae2a86-3dea-4650-9265-247f5f3bd1ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="637ca211-9ce2-7473-7d49-6124301dbf38" executionId="1a3f2328-567c-4f76-86d5-c9ab0ea8b9b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7948a2ab-75da-b66f-01dc-cc0c50dd9b98" executionId="2beffcf7-5212-4ed1-91de-88fee57ff716" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ba9dac2-7723-9839-8900-7d8d62e34f38" executionId="dea6ce41-4e5c-4da1-b536-7ff85a400f97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e89b305-8675-3aed-4c84-f356b475469a" executionId="86b4e23b-9230-4bca-b422-4b51aa149dc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8edd6437-f89d-5258-0bc8-730c57fc8d24" executionId="bfd57664-0f5f-415b-bfa7-050d060b4839" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9010d12c-3f2d-3c6d-95a8-9b36449c2b43" executionId="fddb53b6-0dae-41ae-807a-ebeb0d5c56cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="937886fc-50f1-96f2-137f-12f0beea6931" executionId="c8503642-f584-488b-81fb-029a4f55ee1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2e768e2-9389-62d7-8919-0d56c84b6986" executionId="521f327c-b637-40cc-9905-42e4af726292" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7c04fbe-7743-bb05-94f9-69ebbf46de8f" executionId="4a9344e4-2db1-4267-a4a4-aa6aab6b56aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0371036-8b9a-f916-a7da-ca40b074839f" executionId="4658939a-92a6-41de-b19b-7eac4770a263" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff8df26d-cfd2-ee2a-0027-fc09a963f201" executionId="88d204a0-ca88-4d74-b158-6aa9d2e7e928" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="52168e50-b767-4abf-b974-4ce28c74168c" testId="190ade80-aa7a-0241-1baf-701b223668fe" testName="default_value_for_pay_rate_is_zero" computerName="25KYJS1" duration="00:00:00.4122063" startTime="2013-01-30T16:09:20.5883763-08:00" endTime="2013-01-30T16:09:21.1363763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52168e50-b767-4abf-b974-4ce28c74168c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.default_value_for_pay_rate_is_zero threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.default_value_for_pay_rate_is_zero() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 110
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d64477b-6e38-44c4-803b-a34885b281a4" testId="19d8dede-1a91-62cf-015c-c3c0f4e96b93" testName="can_delete_employee" computerName="25KYJS1" duration="00:00:00.0036011" startTime="2013-01-30T16:09:21.1383763-08:00" endTime="2013-01-30T16:09:21.1433763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d64477b-6e38-44c4-803b-a34885b281a4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_delete_employee threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Employee_Test.can_delete_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ad2c5d63-e1b8-4aa7-802b-86dd093646ed" testId="1de479d9-767f-0f2e-8696-ae1995c42fa6" testName="can_get_validation_message_from_annotation" computerName="25KYJS1" duration="00:00:00.0028682" startTime="2013-01-30T16:09:21.1443763-08:00" endTime="2013-01-30T16:09:21.1493763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad2c5d63-e1b8-4aa7-802b-86dd093646ed">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_get_validation_message_from_annotation threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_get_validation_message_from_annotation() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 266
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="36eabdde-6ad6-4e49-9d3a-44324398c095" testId="1faebceb-8451-a275-e86e-3b894760aa1e" testName="default_value_for_pay_type_is_hourly" computerName="25KYJS1" duration="00:00:00.0024305" startTime="2013-01-30T16:09:21.1513763-08:00" endTime="2013-01-30T16:09:21.1543763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36eabdde-6ad6-4e49-9d3a-44324398c095">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.default_value_for_pay_type_is_hourly threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.default_value_for_pay_type_is_hourly() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 133
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="be61342b-b3f3-4ccf-a5c7-c91ec5c17f88" testId="23156d09-9880-eee1-5655-94cfcbb1914a" testName="can_enter_sale" computerName="25KYJS1" duration="00:00:00.0033249" startTime="2013-01-30T16:09:21.1563763-08:00" endTime="2013-01-30T16:09:21.1613763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be61342b-b3f3-4ccf-a5c7-c91ec5c17f88">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Sale_Test.can_enter_sale threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Sale_Test.can_enter_sale() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Sale_Test.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d98509e3-4b4a-4585-b6a7-6b1996b718b9" testId="25e07621-69c6-eba1-3e42-eb19005502df" testName="can_have_more_than_one_product_in_sale" computerName="25KYJS1" duration="00:00:00.0031519" startTime="2013-01-30T16:09:21.1623763-08:00" endTime="2013-01-30T16:09:21.1673763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d98509e3-4b4a-4585-b6a7-6b1996b718b9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Sale_Test.can_have_more_than_one_product_in_sale threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Sale_Test.can_have_more_than_one_product_in_sale() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Sale_Test.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1cfa9f71-2cdc-4627-998c-f3055291ca3b" testId="31afd779-579d-d7cd-63bf-667b03aa9167" testName="can_get_invalid_entity" computerName="25KYJS1" duration="00:00:00.0025799" startTime="2013-01-30T16:09:21.1693763-08:00" endTime="2013-01-30T16:09:21.1733763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cfa9f71-2cdc-4627-998c-f3055291ca3b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_get_invalid_entity threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_get_invalid_entity() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 308
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90ecde56-c540-4784-b521-19a01ca66db0" testId="3c10e73d-4da6-0220-9d85-4f94384ad704" testName="id_field_is_updated_locally_when_the_context_is_saved" computerName="25KYJS1" duration="00:00:00.0025446" startTime="2013-01-30T16:09:21.1743763-08:00" endTime="2013-01-30T16:09:21.1783763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90ecde56-c540-4784-b521-19a01ca66db0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.id_field_is_updated_locally_when_the_context_is_saved threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.id_field_is_updated_locally_when_the_context_is_saved() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 158
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2a96424c-fc49-4094-b89f-61915fd745f9" testId="492926e9-0840-f02c-f7b4-b90f733c4f50" testName="pay_rate_cant_be_negative" computerName="25KYJS1" duration="00:00:00.0025808" startTime="2013-01-30T16:09:21.1803763-08:00" endTime="2013-01-30T16:09:21.1843763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a96424c-fc49-4094-b89f-61915fd745f9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.pay_rate_cant_be_negative threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.pay_rate_cant_be_negative() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 176
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="befcfa2a-f4da-4e94-8c46-63bbf7bf36fd" testId="493c682a-ac29-c76e-bbbb-178d91201411" testName="pay_rate_can_be_5000000000" computerName="25KYJS1" duration="00:00:00.0024933" startTime="2013-01-30T16:09:21.1863763-08:00" endTime="2013-01-30T16:09:21.1903763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="befcfa2a-f4da-4e94-8c46-63bbf7bf36fd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.pay_rate_can_be_5000000000 threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.pay_rate_can_be_5000000000() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 244
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f1ae2a86-3dea-4650-9265-247f5f3bd1ce" testId="50016594-dfeb-0321-044f-2714ce910c7a" testName="pay_rate_can_be_0" computerName="25KYJS1" duration="00:00:00.0030979" startTime="2013-01-30T16:09:21.1913763-08:00" endTime="2013-01-30T16:09:21.1963763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1ae2a86-3dea-4650-9265-247f5f3bd1ce">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.pay_rate_can_be_0 threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.pay_rate_can_be_0() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 199
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a3f2328-567c-4f76-86d5-c9ab0ea8b9b9" testId="637ca211-9ce2-7473-7d49-6124301dbf38" testName="can_retrieve_employee" computerName="25KYJS1" duration="00:00:00.0029633" startTime="2013-01-30T16:09:21.1983763-08:00" endTime="2013-01-30T16:09:21.2023763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a3f2328-567c-4f76-86d5-c9ab0ea8b9b9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_retrieve_employee threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_retrieve_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 34
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2beffcf7-5212-4ed1-91de-88fee57ff716" testId="7948a2ab-75da-b66f-01dc-cc0c50dd9b98" testName="linq_shorthand_is_equivalent_to_regular_syntax" computerName="25KYJS1" duration="00:00:00.0030137" startTime="2013-01-30T16:09:21.2033763-08:00" endTime="2013-01-30T16:09:21.2083763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2beffcf7-5212-4ed1-91de-88fee57ff716">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.linq_shorthand_is_equivalent_to_regular_syntax threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Employee_Test.linq_shorthand_is_equivalent_to_regular_syntax() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 144
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dea6ce41-4e5c-4da1-b536-7ff85a400f97" testId="7ba9dac2-7723-9839-8900-7d8d62e34f38" testName="default_value_for_start_date_is_null" computerName="25KYJS1" duration="00:00:00.0024598" startTime="2013-01-30T16:09:21.2093763-08:00" endTime="2013-01-30T16:09:21.2133763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dea6ce41-4e5c-4da1-b536-7ff85a400f97">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.default_value_for_start_date_is_null threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.default_value_for_start_date_is_null() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="86b4e23b-9230-4bca-b422-4b51aa149dc7" testId="7e89b305-8675-3aed-4c84-f356b475469a" testName="can_edit_employee" computerName="25KYJS1" duration="00:00:00.0027767" startTime="2013-01-30T16:09:21.2153763-08:00" endTime="2013-01-30T16:09:21.2193763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86b4e23b-9230-4bca-b422-4b51aa149dc7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_edit_employee threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_edit_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 48
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bfd57664-0f5f-415b-bfa7-050d060b4839" testId="8edd6437-f89d-5258-0bc8-730c57fc8d24" testName="relationships_work_between_sales_and_employees" computerName="25KYJS1" duration="00:00:00.0030852" startTime="2013-01-30T16:09:21.2203763-08:00" endTime="2013-01-30T16:09:21.2263763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfd57664-0f5f-415b-bfa7-050d060b4839">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Sale_Test.relationships_work_between_sales_and_employees threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Sale_Test.relationships_work_between_sales_and_employees() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Sale_Test.cs:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fddb53b6-0dae-41ae-807a-ebeb0d5c56cb" testId="9010d12c-3f2d-3c6d-95a8-9b36449c2b43" testName="can_seed_database_with_employee" computerName="25KYJS1" duration="00:00:00.0027948" startTime="2013-01-30T16:09:21.2273763-08:00" endTime="2013-01-30T16:09:21.2313763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fddb53b6-0dae-41ae-807a-ebeb0d5c56cb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_seed_database_with_employee threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Employee_Test.can_seed_database_with_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 69
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c8503642-f584-488b-81fb-029a4f55ee1f" testId="937886fc-50f1-96f2-137f-12f0beea6931" testName="can_add_new_employee" computerName="25KYJS1" duration="00:00:00.0028848" startTime="2013-01-30T16:09:21.2333763-08:00" endTime="2013-01-30T16:09:21.2373763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8503642-f584-488b-81fb-029a4f55ee1f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_add_new_employee threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_add_new_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="521f327c-b637-40cc-9905-42e4af726292" testId="c2e768e2-9389-62d7-8919-0d56c84b6986" testName="lazy_loading_works_between_sales_and_employee" computerName="25KYJS1" duration="00:00:00.0030239" startTime="2013-01-30T16:09:21.2383763-08:00" endTime="2013-01-30T16:09:21.2433763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="521f327c-b637-40cc-9905-42e4af726292">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Sale_Test.lazy_loading_works_between_sales_and_employee threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.DbInitializer.get_SeededAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 29
+   at AwesomeMart.Test.Model.Sale_Test.lazy_loading_works_between_sales_and_employee() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Sale_Test.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a9344e4-2db1-4267-a4a4-aa6aab6b56aa" testId="d7c04fbe-7743-bb05-94f9-69ebbf46de8f" testName="default_value_for_position_is_null" computerName="25KYJS1" duration="00:00:00.0024284" startTime="2013-01-30T16:09:21.2443763-08:00" endTime="2013-01-30T16:09:21.2483763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a9344e4-2db1-4267-a4a4-aa6aab6b56aa">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.default_value_for_position_is_null threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.default_value_for_position_is_null() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 122
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4658939a-92a6-41de-b19b-7eac4770a263" testId="e0371036-8b9a-f916-a7da-ca40b074839f" testName="can_check_for_validation_before_saving" computerName="25KYJS1" duration="00:00:00.0024489" startTime="2013-01-30T16:09:21.2493763-08:00" endTime="2013-01-30T16:09:21.2533763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4658939a-92a6-41de-b19b-7eac4770a263">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.can_check_for_validation_before_saving threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.can_check_for_validation_before_saving() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 290
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="88d204a0-ca88-4d74-b158-6aa9d2e7e928" testId="ff8df26d-cfd2-ee2a-0027-fc09a963f201" testName="pay_rate_cant_be_more_than_5000000000" computerName="25KYJS1" duration="00:00:00.0022515" startTime="2013-01-30T16:09:21.2553763-08:00" endTime="2013-01-30T16:09:21.2593763-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88d204a0-ca88-4d74-b158-6aa9d2e7e928">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AwesomeMart.Test.Model.Employee_Test.pay_rate_cant_be_more_than_5000000000 threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\bin\Debug\AwesomeMart.Model.AwesomeMartDbContext.sdf' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at System.Data.SqlServerCe.SqlGen.Utilities.DeleteDatabase(String fileName)
+   at System.Data.SqlServerCe.SqlCeProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 timeOut, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at AwesomeMart.Test.DbInitializer.get_EmptyAwesomeMartDbContext() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\DbInitializer.cs:line 19
+   at AwesomeMart.Test.Model.Employee_Test.pay_rate_cant_be_more_than_5000000000() in C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Test\Model\Employee_Test.cs:line 221
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

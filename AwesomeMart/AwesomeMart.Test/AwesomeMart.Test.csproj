@@ -51,10 +51,16 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbInitializer.cs" />
     <Compile Include="Model\Employee_Test.cs" />
+    <Compile Include="Model\Sale_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AwesomeMart.Enumerations\AwesomeMart.Enumerations.csproj">
+      <Project>{FBA4EE1E-14E6-47C7-8A35-26858D323948}</Project>
+      <Name>AwesomeMart.Enumerations</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AwesomeMart.Model\AwesomeMart.Model.csproj">
       <Project>{2C19BC84-5737-4670-A3B6-6492B1567B9B}</Project>
       <Name>AwesomeMart.Model</Name>
