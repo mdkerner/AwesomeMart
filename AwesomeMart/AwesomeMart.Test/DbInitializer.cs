@@ -111,6 +111,22 @@ namespace AwesomeMart.Test
 
             context.SaveChanges();
 
+            Sale sale = new Sale();
+            sale.Employee = (from e in context.Employees
+                             where e.Name.Equals("John Davis")
+                             select e).FirstOrDefault();
+
+            sale.Customer = (from c in context.Customers
+                             where c.Name.Equals("Ricky Ricardo")
+                             select c).FirstOrDefault();
+
+            sale.Products.Add((from p in context.Products
+                             where p.Name.Equals("Snuggie, Blue")
+                             select p).FirstOrDefault());
+
+            context.Sales.Add(sale);
+            context.SaveChanges();
+
             return context;
         }
     }

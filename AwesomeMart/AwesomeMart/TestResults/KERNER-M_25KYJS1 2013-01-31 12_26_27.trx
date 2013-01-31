@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b17fddb3-5656-46a7-b7c8-85e942ad90ef" name="KERNER-M@25KYJS1 2013-01-31 12:26:27" runUser="SA\KERNER-M" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0dbed112-f3d2-45f0-833e-0741c6af46f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="KERNER-M_25KYJS1 2013-01-31 12_26_27">
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Enumerations\bin\Debug\AwesomeMart.Enumerations.dll" />
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\AwesomeMart.Data.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-31T12:26:27.8061010-08:00" queuing="2013-01-31T12:26:27.9153024-08:00" start="2013-01-31T12:26:27.9153024-08:00" finish="2013-01-31T12:26:34.2645838-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="24" executed="24" passed="24" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="can_get_validation_message_from_annotation" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="1de479d9-767f-0f2e-8696-ae1995c42fa6">
+      <Execution id="e153941e-9773-46a2-90d6-33476bc583e7" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_get_validation_message_from_annotation" />
+    </UnitTest>
+    <UnitTest name="lazy_loading_works_between_sales_and_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="c2e768e2-9389-62d7-8919-0d56c84b6986">
+      <Execution id="ea165fa7-e162-46f5-b127-1586e46b2a46" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="lazy_loading_works_between_sales_and_employee" />
+    </UnitTest>
+    <UnitTest name="can_get_invalid_entity" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="31afd779-579d-d7cd-63bf-667b03aa9167">
+      <Execution id="36bee3bc-9e0d-48f7-a077-885a0022ffc4" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_get_invalid_entity" />
+    </UnitTest>
+    <UnitTest name="non_icollection_does_lazy_load" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="8c696147-2875-50cd-0fa2-82724cdbe80d">
+      <Execution id="24288e32-11a1-4ebc-9be2-2737fc701347" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Department_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="non_icollection_does_lazy_load" />
+    </UnitTest>
+    <UnitTest name="can_seed_database_with_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="9010d12c-3f2d-3c6d-95a8-9b36449c2b43">
+      <Execution id="03c5f59b-97a1-4002-aaaa-406e1feb64a3" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_seed_database_with_employee" />
+    </UnitTest>
+    <UnitTest name="default_value_for_pay_type_is_hourly" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="1faebceb-8451-a275-e86e-3b894760aa1e">
+      <Execution id="3762f0a6-635d-4e94-b5f8-03ea4dc51cb9" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_pay_type_is_hourly" />
+    </UnitTest>
+    <UnitTest name="linq_shorthand_is_equivalent_to_regular_syntax" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="7948a2ab-75da-b66f-01dc-cc0c50dd9b98">
+      <Execution id="47584a24-48bb-4cb5-b593-5c038fa961bb" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="linq_shorthand_is_equivalent_to_regular_syntax" />
+    </UnitTest>
+    <UnitTest name="pay_rate_cant_be_negative" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="492926e9-0840-f02c-f7b4-b90f733c4f50">
+      <Execution id="1e40f96c-9695-4949-855e-9939e0ad2dec" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_cant_be_negative" />
+    </UnitTest>
+    <UnitTest name="can_have_more_than_one_product_in_sale" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="25e07621-69c6-eba1-3e42-eb19005502df">
+      <Execution id="9f300fae-4ea3-4866-9aca-4e2490ce6fa0" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_have_more_than_one_product_in_sale" />
+    </UnitTest>
+    <UnitTest name="relationships_work_between_sales_and_employees" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="8edd6437-f89d-5258-0bc8-730c57fc8d24">
+      <Execution id="2a96b256-08e5-4fe8-ae6d-63c1e10f0123" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Sale_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="relationships_work_between_sales_and_employees" />
+    </UnitTest>
+    <UnitTest name="default_value_for_position_is_null" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="d7c04fbe-7743-bb05-94f9-69ebbf46de8f">
+      <Execution id="e3b46b31-56a3-486a-8c3d-e8d432decbe3" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_position_is_null" />
+    </UnitTest>
+    <UnitTest name="can_add_new_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="937886fc-50f1-96f2-137f-12f0beea6931">
+      <Execution id="de00b23c-3ba2-48be-ab8f-24a5e7b92a04" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_add_new_employee" />
+    </UnitTest>
+    <UnitTest name="can_retrieve_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="637ca211-9ce2-7473-7d49-6124301dbf38">
+      <Execution id="700de603-6578-432b-aba6-59fd4457281a" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_retrieve_employee" />
+    </UnitTest>
+    <UnitTest name="pay_type_is_able_to_be_changed" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="64b1c73e-cbd6-9f2f-f8b0-fe4804f3ee4f">
+      <Execution id="74e6525a-12be-4172-a98b-1462481c823d" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_type_is_able_to_be_changed" />
+    </UnitTest>
+    <UnitTest name="can_delete_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="19d8dede-1a91-62cf-015c-c3c0f4e96b93">
+      <Execution id="0dc49186-2de9-4966-9796-1b3b7a368d4a" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_delete_employee" />
+    </UnitTest>
+    <UnitTest name="can_set_default_values_in_object_constructor" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="4321ccae-be7c-ae73-6474-f61969b9055a">
+      <Execution id="1a661e74-d706-45cb-88fb-31117300d6d2" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Department_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_set_default_values_in_object_constructor" />
+    </UnitTest>
+    <UnitTest name="can_check_for_validation_before_saving" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="e0371036-8b9a-f916-a7da-ca40b074839f">
+      <Execution id="becb2b62-83eb-4a7f-a9b6-81bcc872ab92" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_check_for_validation_before_saving" />
+    </UnitTest>
+    <UnitTest name="can_edit_employee" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="7e89b305-8675-3aed-4c84-f356b475469a">
+      <Execution id="77381e14-4bb7-4e13-bd50-e8db92339211" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_edit_employee" />
+    </UnitTest>
+    <UnitTest name="default_value_for_pay_rate_is_zero" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="190ade80-aa7a-0241-1baf-701b223668fe">
+      <Execution id="1c84c693-96c6-473f-afd4-724b9ec440a2" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_pay_rate_is_zero" />
+    </UnitTest>
+    <UnitTest name="pay_rate_cant_be_more_than_5000000000" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="ff8df26d-cfd2-ee2a-0027-fc09a963f201">
+      <Execution id="e45bccec-ca76-4e64-b8ee-11e87b0210a9" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_cant_be_more_than_5000000000" />
+    </UnitTest>
+    <UnitTest name="id_field_is_updated_locally_when_the_context_is_saved" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="3c10e73d-4da6-0220-9d85-4f94384ad704">
+      <Execution id="72511be5-0f2d-4978-827b-ad5de591352e" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="id_field_is_updated_locally_when_the_context_is_saved" />
+    </UnitTest>
+    <UnitTest name="pay_rate_can_be_0" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="50016594-dfeb-0321-044f-2714ce910c7a">
+      <Execution id="295e762e-3f01-4d8c-b558-ce9bdb759259" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_can_be_0" />
+    </UnitTest>
+    <UnitTest name="pay_rate_can_be_5000000000" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="493c682a-ac29-c76e-bbbb-178d91201411">
+      <Execution id="4bc20c6e-7b75-4861-a969-15e85310be3a" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pay_rate_can_be_5000000000" />
+    </UnitTest>
+    <UnitTest name="default_value_for_start_date_is_null" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="7ba9dac2-7723-9839-8900-7d8d62e34f38">
+      <Execution id="6e5e9559-81a9-4df5-8272-bd2990c3ccf0" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="default_value_for_start_date_is_null" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="190ade80-aa7a-0241-1baf-701b223668fe" executionId="1c84c693-96c6-473f-afd4-724b9ec440a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19d8dede-1a91-62cf-015c-c3c0f4e96b93" executionId="0dc49186-2de9-4966-9796-1b3b7a368d4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1de479d9-767f-0f2e-8696-ae1995c42fa6" executionId="e153941e-9773-46a2-90d6-33476bc583e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1faebceb-8451-a275-e86e-3b894760aa1e" executionId="3762f0a6-635d-4e94-b5f8-03ea4dc51cb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25e07621-69c6-eba1-3e42-eb19005502df" executionId="9f300fae-4ea3-4866-9aca-4e2490ce6fa0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31afd779-579d-d7cd-63bf-667b03aa9167" executionId="36bee3bc-9e0d-48f7-a077-885a0022ffc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c10e73d-4da6-0220-9d85-4f94384ad704" executionId="72511be5-0f2d-4978-827b-ad5de591352e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4321ccae-be7c-ae73-6474-f61969b9055a" executionId="1a661e74-d706-45cb-88fb-31117300d6d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="492926e9-0840-f02c-f7b4-b90f733c4f50" executionId="1e40f96c-9695-4949-855e-9939e0ad2dec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="493c682a-ac29-c76e-bbbb-178d91201411" executionId="4bc20c6e-7b75-4861-a969-15e85310be3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50016594-dfeb-0321-044f-2714ce910c7a" executionId="295e762e-3f01-4d8c-b558-ce9bdb759259" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="637ca211-9ce2-7473-7d49-6124301dbf38" executionId="700de603-6578-432b-aba6-59fd4457281a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64b1c73e-cbd6-9f2f-f8b0-fe4804f3ee4f" executionId="74e6525a-12be-4172-a98b-1462481c823d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7948a2ab-75da-b66f-01dc-cc0c50dd9b98" executionId="47584a24-48bb-4cb5-b593-5c038fa961bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ba9dac2-7723-9839-8900-7d8d62e34f38" executionId="6e5e9559-81a9-4df5-8272-bd2990c3ccf0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e89b305-8675-3aed-4c84-f356b475469a" executionId="77381e14-4bb7-4e13-bd50-e8db92339211" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c696147-2875-50cd-0fa2-82724cdbe80d" executionId="24288e32-11a1-4ebc-9be2-2737fc701347" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8edd6437-f89d-5258-0bc8-730c57fc8d24" executionId="2a96b256-08e5-4fe8-ae6d-63c1e10f0123" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9010d12c-3f2d-3c6d-95a8-9b36449c2b43" executionId="03c5f59b-97a1-4002-aaaa-406e1feb64a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="937886fc-50f1-96f2-137f-12f0beea6931" executionId="de00b23c-3ba2-48be-ab8f-24a5e7b92a04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2e768e2-9389-62d7-8919-0d56c84b6986" executionId="ea165fa7-e162-46f5-b127-1586e46b2a46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7c04fbe-7743-bb05-94f9-69ebbf46de8f" executionId="e3b46b31-56a3-486a-8c3d-e8d432decbe3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0371036-8b9a-f916-a7da-ca40b074839f" executionId="becb2b62-83eb-4a7f-a9b6-81bcc872ab92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff8df26d-cfd2-ee2a-0027-fc09a963f201" executionId="e45bccec-ca76-4e64-b8ee-11e87b0210a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1c84c693-96c6-473f-afd4-724b9ec440a2" testId="190ade80-aa7a-0241-1baf-701b223668fe" testName="default_value_for_pay_rate_is_zero" computerName="25KYJS1" duration="00:00:00.9002466" startTime="2013-01-31T12:26:27.9153024-08:00" endTime="2013-01-31T12:26:28.9449156-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c84c693-96c6-473f-afd4-724b9ec440a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="0dc49186-2de9-4966-9796-1b3b7a368d4a" testId="19d8dede-1a91-62cf-015c-c3c0f4e96b93" testName="can_delete_employee" computerName="25KYJS1" duration="00:00:00.3289596" startTime="2013-01-31T12:26:28.9449156-08:00" endTime="2013-01-31T12:26:29.2725198-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dc49186-2de9-4966-9796-1b3b7a368d4a">
+    </UnitTestResult>
+    <UnitTestResult executionId="e153941e-9773-46a2-90d6-33476bc583e7" testId="1de479d9-767f-0f2e-8696-ae1995c42fa6" testName="can_get_validation_message_from_annotation" computerName="25KYJS1" duration="00:00:00.2008185" startTime="2013-01-31T12:26:29.2881200-08:00" endTime="2013-01-31T12:26:29.4909226-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e153941e-9773-46a2-90d6-33476bc583e7">
+    </UnitTestResult>
+    <UnitTestResult executionId="3762f0a6-635d-4e94-b5f8-03ea4dc51cb9" testId="1faebceb-8451-a275-e86e-3b894760aa1e" testName="default_value_for_pay_type_is_hourly" computerName="25KYJS1" duration="00:00:00.2112132" startTime="2013-01-31T12:26:29.4909226-08:00" endTime="2013-01-31T12:26:29.6937252-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3762f0a6-635d-4e94-b5f8-03ea4dc51cb9">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f300fae-4ea3-4866-9aca-4e2490ce6fa0" testId="25e07621-69c6-eba1-3e42-eb19005502df" testName="can_have_more_than_one_product_in_sale" computerName="25KYJS1" duration="00:00:00.2941451" startTime="2013-01-31T12:26:29.6937252-08:00" endTime="2013-01-31T12:26:29.9901290-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f300fae-4ea3-4866-9aca-4e2490ce6fa0">
+    </UnitTestResult>
+    <UnitTestResult executionId="36bee3bc-9e0d-48f7-a077-885a0022ffc4" testId="31afd779-579d-d7cd-63bf-667b03aa9167" testName="can_get_invalid_entity" computerName="25KYJS1" duration="00:00:00.1882803" startTime="2013-01-31T12:26:29.9901290-08:00" endTime="2013-01-31T12:26:30.1929316-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36bee3bc-9e0d-48f7-a077-885a0022ffc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="72511be5-0f2d-4978-827b-ad5de591352e" testId="3c10e73d-4da6-0220-9d85-4f94384ad704" testName="id_field_is_updated_locally_when_the_context_is_saved" computerName="25KYJS1" duration="00:00:00.2012737" startTime="2013-01-31T12:26:30.1929316-08:00" endTime="2013-01-31T12:26:30.3957342-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72511be5-0f2d-4978-827b-ad5de591352e">
+    </UnitTestResult>
+    <UnitTestResult executionId="1a661e74-d706-45cb-88fb-31117300d6d2" testId="4321ccae-be7c-ae73-6474-f61969b9055a" testName="can_set_default_values_in_object_constructor" computerName="25KYJS1" duration="00:00:00.1862603" startTime="2013-01-31T12:26:30.3957342-08:00" endTime="2013-01-31T12:26:30.5829366-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a661e74-d706-45cb-88fb-31117300d6d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="1e40f96c-9695-4949-855e-9939e0ad2dec" testId="492926e9-0840-f02c-f7b4-b90f733c4f50" testName="pay_rate_cant_be_negative" computerName="25KYJS1" duration="00:00:00.1908054" startTime="2013-01-31T12:26:30.5829366-08:00" endTime="2013-01-31T12:26:30.7701390-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e40f96c-9695-4949-855e-9939e0ad2dec">
+    </UnitTestResult>
+    <UnitTestResult executionId="4bc20c6e-7b75-4861-a969-15e85310be3a" testId="493c682a-ac29-c76e-bbbb-178d91201411" testName="pay_rate_can_be_5000000000" computerName="25KYJS1" duration="00:00:00.2009375" startTime="2013-01-31T12:26:30.7857392-08:00" endTime="2013-01-31T12:26:30.9885418-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bc20c6e-7b75-4861-a969-15e85310be3a">
+    </UnitTestResult>
+    <UnitTestResult executionId="295e762e-3f01-4d8c-b558-ce9bdb759259" testId="50016594-dfeb-0321-044f-2714ce910c7a" testName="pay_rate_can_be_0" computerName="25KYJS1" duration="00:00:00.1995402" startTime="2013-01-31T12:26:30.9885418-08:00" endTime="2013-01-31T12:26:31.1913444-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="295e762e-3f01-4d8c-b558-ce9bdb759259">
+    </UnitTestResult>
+    <UnitTestResult executionId="700de603-6578-432b-aba6-59fd4457281a" testId="637ca211-9ce2-7473-7d49-6124301dbf38" testName="can_retrieve_employee" computerName="25KYJS1" duration="00:00:00.2141953" startTime="2013-01-31T12:26:31.1913444-08:00" endTime="2013-01-31T12:26:31.4097472-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="700de603-6578-432b-aba6-59fd4457281a">
+    </UnitTestResult>
+    <UnitTestResult executionId="74e6525a-12be-4172-a98b-1462481c823d" testId="64b1c73e-cbd6-9f2f-f8b0-fe4804f3ee4f" testName="pay_type_is_able_to_be_changed" computerName="25KYJS1" duration="00:00:00.2218760" startTime="2013-01-31T12:26:31.4097472-08:00" endTime="2013-01-31T12:26:31.6281500-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74e6525a-12be-4172-a98b-1462481c823d">
+    </UnitTestResult>
+    <UnitTestResult executionId="47584a24-48bb-4cb5-b593-5c038fa961bb" testId="7948a2ab-75da-b66f-01dc-cc0c50dd9b98" testName="linq_shorthand_is_equivalent_to_regular_syntax" computerName="25KYJS1" duration="00:00:00.2685015" startTime="2013-01-31T12:26:31.6281500-08:00" endTime="2013-01-31T12:26:31.8933534-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47584a24-48bb-4cb5-b593-5c038fa961bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e5e9559-81a9-4df5-8272-bd2990c3ccf0" testId="7ba9dac2-7723-9839-8900-7d8d62e34f38" testName="default_value_for_start_date_is_null" computerName="25KYJS1" duration="00:00:00.2058007" startTime="2013-01-31T12:26:31.8933534-08:00" endTime="2013-01-31T12:26:32.1117562-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e5e9559-81a9-4df5-8272-bd2990c3ccf0">
+    </UnitTestResult>
+    <UnitTestResult executionId="77381e14-4bb7-4e13-bd50-e8db92339211" testId="7e89b305-8675-3aed-4c84-f356b475469a" testName="can_edit_employee" computerName="25KYJS1" duration="00:00:00.2365226" startTime="2013-01-31T12:26:32.1117562-08:00" endTime="2013-01-31T12:26:32.3457592-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77381e14-4bb7-4e13-bd50-e8db92339211">
+    </UnitTestResult>
+    <UnitTestResult executionId="24288e32-11a1-4ebc-9be2-2737fc701347" testId="8c696147-2875-50cd-0fa2-82724cdbe80d" testName="non_icollection_does_lazy_load" computerName="25KYJS1" duration="00:00:00.2757998" startTime="2013-01-31T12:26:32.3457592-08:00" endTime="2013-01-31T12:26:32.6265628-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24288e32-11a1-4ebc-9be2-2737fc701347">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a96b256-08e5-4fe8-ae6d-63c1e10f0123" testId="8edd6437-f89d-5258-0bc8-730c57fc8d24" testName="relationships_work_between_sales_and_employees" computerName="25KYJS1" duration="00:00:00.2834527" startTime="2013-01-31T12:26:32.6265628-08:00" endTime="2013-01-31T12:26:32.9073664-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a96b256-08e5-4fe8-ae6d-63c1e10f0123">
+    </UnitTestResult>
+    <UnitTestResult executionId="03c5f59b-97a1-4002-aaaa-406e1feb64a3" testId="9010d12c-3f2d-3c6d-95a8-9b36449c2b43" testName="can_seed_database_with_employee" computerName="25KYJS1" duration="00:00:00.2438933" startTime="2013-01-31T12:26:32.9229666-08:00" endTime="2013-01-31T12:26:33.1569696-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03c5f59b-97a1-4002-aaaa-406e1feb64a3">
+    </UnitTestResult>
+    <UnitTestResult executionId="de00b23c-3ba2-48be-ab8f-24a5e7b92a04" testId="937886fc-50f1-96f2-137f-12f0beea6931" testName="can_add_new_employee" computerName="25KYJS1" duration="00:00:00.2102551" startTime="2013-01-31T12:26:33.1569696-08:00" endTime="2013-01-31T12:26:33.3753724-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de00b23c-3ba2-48be-ab8f-24a5e7b92a04">
+    </UnitTestResult>
+    <UnitTestResult executionId="ea165fa7-e162-46f5-b127-1586e46b2a46" testId="c2e768e2-9389-62d7-8919-0d56c84b6986" testName="lazy_loading_works_between_sales_and_employee" computerName="25KYJS1" duration="00:00:00.2600619" startTime="2013-01-31T12:26:33.3753724-08:00" endTime="2013-01-31T12:26:33.6405758-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea165fa7-e162-46f5-b127-1586e46b2a46">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3b46b31-56a3-486a-8c3d-e8d432decbe3" testId="d7c04fbe-7743-bb05-94f9-69ebbf46de8f" testName="default_value_for_position_is_null" computerName="25KYJS1" duration="00:00:00.2141787" startTime="2013-01-31T12:26:33.6405758-08:00" endTime="2013-01-31T12:26:33.8589786-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3b46b31-56a3-486a-8c3d-e8d432decbe3">
+    </UnitTestResult>
+    <UnitTestResult executionId="becb2b62-83eb-4a7f-a9b6-81bcc872ab92" testId="e0371036-8b9a-f916-a7da-ca40b074839f" testName="can_check_for_validation_before_saving" computerName="25KYJS1" duration="00:00:00.1917369" startTime="2013-01-31T12:26:33.8589786-08:00" endTime="2013-01-31T12:26:34.0461810-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="becb2b62-83eb-4a7f-a9b6-81bcc872ab92">
+    </UnitTestResult>
+    <UnitTestResult executionId="e45bccec-ca76-4e64-b8ee-11e87b0210a9" testId="ff8df26d-cfd2-ee2a-0027-fc09a963f201" testName="pay_rate_cant_be_more_than_5000000000" computerName="25KYJS1" duration="00:00:00.1914205" startTime="2013-01-31T12:26:34.0617812-08:00" endTime="2013-01-31T12:26:34.2489836-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e45bccec-ca76-4e64-b8ee-11e87b0210a9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

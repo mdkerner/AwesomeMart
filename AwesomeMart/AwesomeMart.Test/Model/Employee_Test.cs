@@ -339,5 +339,29 @@ namespace AwesomeMart.Test.Model
 
             Assert.AreSame(newEmployee, context.GetValidationErrors().FirstOrDefault().Entry.Entity);
         }
+
+        [TestMethod]
+        public void enums_save_even_Thought_They_dont_Show_up()
+        {
+            AwesomeMartDb context = DbInitializer.EmptyAwesomeMartDbContext;
+            Employee emp = new Employee();
+            context.Employees.Add(emp);
+            context.SaveChanges();
+
+            Assert.IsNull((from e in context.Employees
+                           select e).FirstOrDefault().Position);
+
+            emp.Position = Position.Cashier;
+            context.SaveChanges();
+
+            Assert.AreEqual(Position.Cashier, context.Employees.FirstOrDefault().Position);
+
+
+            emp.Position = Position.Manager;
+            context.SaveChanges();
+
+            Assert.AreEqual(Position.Manager, context.Employees.FirstOrDefault().Position);
+
+        }
     }
 }

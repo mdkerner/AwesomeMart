@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0fa1fe94-84b2-4439-b749-a98abc40f77d" name="KERNER-M@25KYJS1 2013-01-31 12:45:03" runUser="SA\KERNER-M" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0dbed112-f3d2-45f0-833e-0741c6af46f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="KERNER-M_25KYJS1 2013-01-31 12_45_03">
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Enumerations\bin\Debug\AwesomeMart.Enumerations.dll" />
+      <DeploymentItem filename="C:\Users\kerner-m\Documents\GitHub\AwesomeMart\AwesomeMart\AwesomeMart.Model\bin\Debug\AwesomeMart.Data.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-31T12:45:03.9824268-08:00" queuing="2013-01-31T12:45:04.0944380-08:00" start="2013-01-31T12:45:04.0984384-08:00" finish="2013-01-31T12:45:05.2005486-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="enums_save_even_Thought_They_dont_Show_up" storage="c:\users\kerner-m\documents\github\awesomemart\awesomemart\awesomemart.test\bin\debug\awesomemart.test.dll" id="ffa9614e-e071-4211-eacd-1c2c5cdde8f6">
+      <Execution id="c062e9e0-30ea-4f68-a87f-d1e100b70205" />
+      <TestMethod codeBase="C:/Users/kerner-m/Documents/GitHub/AwesomeMart/AwesomeMart/AwesomeMart.Test/bin/Debug/AwesomeMart.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AwesomeMart.Test.Model.Employee_Test, AwesomeMart.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="enums_save_even_Thought_They_dont_Show_up" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ffa9614e-e071-4211-eacd-1c2c5cdde8f6" executionId="c062e9e0-30ea-4f68-a87f-d1e100b70205" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c062e9e0-30ea-4f68-a87f-d1e100b70205" testId="ffa9614e-e071-4211-eacd-1c2c5cdde8f6" testName="enums_save_even_Thought_They_dont_Show_up" computerName="25KYJS1" duration="00:00:00.9054267" startTime="2013-01-31T12:45:04.1014387-08:00" endTime="2013-01-31T12:45:05.1255411-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c062e9e0-30ea-4f68-a87f-d1e100b70205">
+    </UnitTestResult>
+  </Results>
+</TestRun>

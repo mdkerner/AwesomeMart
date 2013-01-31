@@ -7,6 +7,11 @@ namespace AwesomeMart.Model
 {
     public class Sale
     {
+        public Sale()
+        {
+            Products = new List<Product>();
+        }
+
         public int ID { get; set; }
         public Employee Employee { get; set; }
         public Customer Customer { get; set; }

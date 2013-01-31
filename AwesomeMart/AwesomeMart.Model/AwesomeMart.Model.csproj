@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="AwesomeMartDb.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Department.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Product.cs" />

@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbInitializer.cs" />
+    <Compile Include="Model\Department_Test.cs" />
     <Compile Include="Model\Employee_Test.cs" />
     <Compile Include="Model\Sale_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

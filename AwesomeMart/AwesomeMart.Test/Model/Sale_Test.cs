@@ -11,30 +11,6 @@ namespace AwesomeMart.Test.Model
     [TestClass]
     public class Sale_Test
     {
-        [TestMethod]
-        public void can_enter_sale()
-        {
-            AwesomeMartDb context = DbInitializer.SeededAwesomeMartDbContext;
-
-            Sale sale = new Sale();
-            sale.Employee = (from e in context.Employees
-                             where e.Name.Equals("John Davis")
-                             select e).FirstOrDefault();
-
-            sale.Customer = (from c in context.Customers
-                             where c.Name.Equals("Ricky Ricardo")
-                             select c).FirstOrDefault();
-
-            sale.Products = (from p in context.Products
-                             where p.Name.Equals("Snuggie, Blue")
-                             select p).ToList();
-
-            context.Sales.Add(sale);
-            context.SaveChanges();
-
-            Assert.AreEqual(1, (from s in context.Sales
-                                select s).Count());
-        }
 
         [TestMethod]
         public void can_have_more_than_one_product_in_sale()
@@ -60,8 +36,7 @@ namespace AwesomeMart.Test.Model
             context.Sales.Add(sale);
             context.SaveChanges();
 
-            Assert.IsTrue(1 < (from s in context.Sales
-                                select s).FirstOrDefault().Products.Count());
+            Assert.IsTrue(1 < sale.Products.Count());
         }
 
         [TestMethod]
@@ -88,9 +63,10 @@ namespace AwesomeMart.Test.Model
             context.Sales.Add(sale);
             context.SaveChanges();
 
-            Assert.AreEqual(1, (from e in context.Employees
-                               where e.Name.Equals("John Davis")
-                               select e).FirstOrDefault().Sales.Count());
+            Employee employee = context.Employees.Where(e => e.Name.Equals("John Davis")).FirstOrDefault();
+
+
+            Assert.AreEqual(sale.Employee.ID, employee.ID);
         }
 
         [TestMethod]
@@ -98,26 +74,11 @@ namespace AwesomeMart.Test.Model
         {
             AwesomeMartDb context = DbInitializer.SeededAwesomeMartDbContext;
 
-            Sale sale = new Sale();
-            sale.Employee = (from e in context.Employees
-                             where e.Name.Equals("John Davis")
-                             select e).FirstOrDefault();
-
-            sale.Customer = (from c in context.Customers
-                             where c.Name.Equals("Ricky Ricardo")
-                             select c).FirstOrDefault();
-
-            sale.Products = (from p in context.Products
-                             where p.Name.Equals("Snuggie, Blue")
-                             select p).ToList();
-
-            context.Sales.Add(sale);
-            context.SaveChanges();
-
-            sale = (from s in context.Sales
+            
+            Sale sale = (from s in context.Sales
                     select s).FirstOrDefault();
 
-            Assert.IsTrue(0 < sale.Employee.Sales.Count);
+            Assert.IsTrue(null == sale.Employee.Department);
         }
     }
 }

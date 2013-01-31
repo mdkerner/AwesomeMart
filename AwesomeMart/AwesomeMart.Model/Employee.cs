@@ -21,6 +21,8 @@ namespace AwesomeMart.Model
         [Range(0, 5000000000, ErrorMessage="That's a ridiculous amount to be paid... Let's be real, here.")]
         public double PayRate { get; set; }
 
+        public Department Department { get; set; }
+
         public PayType PayType { get; set; }
         public virtual ICollection<Sale> Sales { get; set; }
 
