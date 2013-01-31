@@ -7,6 +7,10 @@ using AwesomeMart.Enumerations;
 
 namespace AwesomeMart.Model
 {
+    /// <summary>
+    /// DbContext is used to generate the database... 
+    /// You also query against this class.
+    /// </summary>
     public class AwesomeMartDb : DbContext
     {
         public DbSet<Customer> Customers { get; set; }

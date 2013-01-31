@@ -7,9 +7,9 @@ namespace AwesomeMart.Enumerations
 {
     public enum PayType
     {
-        Hourly = 0,
-        Weekly = 1,
-        Monthly = 2,
-        Yearly = 3
+        Hourly,
+        Weekly,
+        Monthly,
+        Yearly
     }
 }
